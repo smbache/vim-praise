@@ -1,3 +1,10 @@
 *vim-praise.txt*	Plugin for getting praise
 
 Take it all in! And then Vim like crazy...
+
+Add more templates with g:praise_more_templates. This should
+be an array with strings. Use placeholders {{adjective}}, {{adverb}},
+{{type}}, {{exclam}} to get random words. {{anadjective}}, {{anadverb}},
+{{atype}} versions exists for when the particle a/an is needed too.
+If you want to overwrite the default templates use g:praise_templates
+instead.
