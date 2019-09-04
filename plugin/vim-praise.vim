@@ -171,5 +171,4 @@ endfunction
 
 command! PRAISE call g:Praise()
 
-autocmd! BufEnter * PRAISE
-autocmd! BufWrite * PRAISE
+autocmd BufEnter * PRAISE
