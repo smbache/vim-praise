@@ -191,4 +191,10 @@ endfunction
 
 command! PRAISE call g:Praise()
 
-autocmd BufEnter * PRAISE
+if exists('g:praise_event')
+  if g:praise_event == 'BufEnter'
+    autocmd BufEnter * PRAISE
+  endif
+else
+  autocmd BufRead * PRAISE
+endif
