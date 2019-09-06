@@ -196,5 +196,5 @@ if exists('g:praise_event')
     autocmd BufEnter * PRAISE
   endif
 else
-  autocmd BufRead * PRAISE
+  autocmd BufNew,WinNew * PRAISE
 endif
