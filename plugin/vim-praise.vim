@@ -1,5 +1,5 @@
 function! g:Praise()
-  echom vimpraise#generate()
+  echom praise#generate()
 endfunction
 
 command! PRAISE call g:Praise()

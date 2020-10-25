@@ -183,7 +183,7 @@ function! s:Sub(template)
   return s:Sub(l:new_template)
 endfunction
 
-function! vimpraise#generate()
+function! praise#generate()
   let l:template = s:templates[s:NotSoRandom(len(s:templates))]
   return s:Sub(l:template)
 endfunction
